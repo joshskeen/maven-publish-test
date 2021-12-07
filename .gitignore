@@ -1,0 +1,75 @@
+# Maven
+target
+pom.xml.*
+release.properties
+gen-external-apklibs
+
+# Gradle
+.gradle
+build/
+!/scripts/**/build
+local.properties
+gradlew.bat
+settings_modules_override.gradle
+/reports/
+
+# Gradle Profiler
+profile-out*
+gradle-user-home
+
+# Bazel
+bazel-*
+tools/bazel-dist
+.ijwb/
+.aswb/
+user.bazelrc
+
+# Eclipse
+.classpath
+.project
+.settings
+eclipsebin
+
+# IntelliJ IDEA
+.idea/
+!.idea/vcs.xml
+!.idea/runConfigurations/
+!.idea/scopes/
+*.iml
+*.ipl
+*.ipr
+*.iws
+captures/
+classes/
+idea-classes/
+coverage-error.log
+.shelf/
+thread-dump.zip
+
+# Android
+gen
+bin
+!/scripts/**/bin
+!/tools/**/bin
+project.properties
+out
+.cxx
+
+# Robolectric
+tmp
+
+# Steve Jobs
+.DS_Store
+
+# Emacs
+*~
+.#*
+
+# Vim
+*.sw[op]
+
+# Ignore localization file
+locale-manifest.yml
+
+# Ignore any dev-defined helper for /scripts/squid/autologin.sh
+autologin.config
